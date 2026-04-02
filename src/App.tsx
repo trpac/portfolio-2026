@@ -1,35 +1,44 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div style={{ padding: '40px', fontFamily: 'sans-serif' }}>
-      <h1>Nicholas Henao | Portfolio 2026</h1>
-      <p>Software Engineer & Multi-disciplinary Creator</p>
-      
-      {/* This is a simple button using the 'count' state you imported */}
-      <button onClick={() => setCount((count) => count + 1)}>
-        Project Likes: {count}
-      </button>
+    <div className="studio-container">
+      <header>
+        <h1>Nicholas Henao // Portfolio_2026</h1>
+        <div className="status-bar">
+          <span>LOC: Rionegro, CO</span>
+          <span>STATUS: Active_Learning</span>
+          <span>VER: 1.0.4</span>
+        </div>
+      </header>
 
-      <hr style={{ margin: '20px 0' }} />
+      <main>
+        <section className="grid">
+          <div className="card">
+            <h3>[01] Engineering</h3>
+            <p style={{color: '#888'}}>React, TypeScript, Linux environments. Building scalable lifestyle operating systems.</p>
+          </div>
 
-      <section>
-        <h2>Current Focus</h2>
-        <ul>
-          <li><strong>Engineering:</strong> React + TypeScript Development</li>
-          <li><strong>Creative:</strong> Audio Engineering & Ableton Live</li>
-          <li><strong>Systems:</strong> Notion-based Personal OS</li>
-        </ul>
-      </section>
+          <div className="card">
+            <h3>[02] Production</h3>
+            <p style={{color: '#888'}}>Audio Engineering, Ableton Live, and multi-disciplinary creative direction.</p>
+          </div>
 
-      {/* If your hero.png is in the src/assets folder, this will display it */}
-      {heroImg && <img src={heroImg} alt="Hero" style={{ width: '200px', marginTop: '20px' }} />}
+          <div className="card">
+            <h3>[03] Systems</h3>
+            <p style={{color: '#888'}}>High-structure productivity via Notion and deep-work Monk Mode sessions.</p>
+          </div>
+        </section>
+
+        <section style={{marginTop: '60px'}}>
+          <button onClick={() => setCount((count) => count + 1)}>
+            INITIALIZE_SIGNAL: {count}
+          </button>
+        </section>
+      </main>
     </div>
   )
 }
