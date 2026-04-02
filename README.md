@@ -1,35 +1,35 @@
 # portfolio-2026
-Portfolio 2026
-Welcome to my technical playground. This repository is a living document of my journey as a software engineer, where I track my progress, projects, and the evolution of my coding skills.
 
-🚀 Current Focus
+Welcome to my digital workshop. This repository is a living document of my journey as a Software Engineer and Multi-disciplinary Creator, where I track the intersection of code, sound, and design.
+
+🚀 Technical Focus
 I am currently deep-diving into Frontend Development with a specific focus on:
 
-React: Building modular, reusable UI components.
+React & TypeScript: Building modular, type-safe UI components and scalable web applications.
 
-TypeScript: Implementing type safety to write more predictable and scalable code.
+Modern CSS: Creating responsive, aesthetic user interfaces.
 
-Modern CSS: Creating responsive and aesthetic user interfaces.
+Linux Environments: Streamlining my development workflow through the terminal.
+
+🎨 The Creative Process
+My approach to software is heavily influenced by my background in Music Production and Digital Design. I believe that clean code and a well-mixed track share the same DNA: structure, rhythm, and attention to detail.
+
+Sound Engineering: Utilizing Ableton Live and Focusrite hardware to explore professional-grade arrangements and audio interfaces.
+
+Visual Design: Using Procreate and Pinterest for mood boarding and UI/UX inspiration.
+
+Digital Systems: Building personal operating systems in Notion to manage complex creative workflows.
 
 📂 Project Structure
-/exercises: Small logic challenges and syntax practice.
+/apps: Functional React + TS applications.
 
-/components: Isolated React + TS components.
+/components: Reusable UI pieces and design experiments.
 
-/mini-apps: Small-scale functional applications.
+/audio-logic: Experiments with Web Audio API or music-related code.
 
-🛠️ Tech Stack & Tools
-Languages: JavaScript (ES6+), TypeScript.
+📈 2026 Milestones
+[ ] Deploy three full-scale portfolio projects.
 
-Library: React.
+[ ] Integrate audio processing logic into a React application.
 
-Environment: Linux / VS Code.
-
-Design: Procreate & Pinterest (for UI inspiration and mood boarding).
-
-📈 My Goals for 2026
-[ ] Master React hooks and state management.
-
-[ ] Build and deploy three full-scale portfolio projects.
-
-[ ] Contribute to open-source projects.
+[ ] Master advanced TypeScript patterns.
