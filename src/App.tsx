@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Resume from './components/Resume'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,13 +10,17 @@ function App() {
       <header>
         <h1>Nicholas Henao // Portfolio_2026</h1>
         <div className="status-bar">
-          <span>LOC: Rionegro, CO</span>
-          <span>STATUS: Active_Learning</span>
-          <span>VER: 1.0.4</span>
+          <span>LOCATION: Rionegro, Colombia</span>
+          <span>email: nhenao98@outlook.com</span>
+          <span>github.com/trpac</span>
+          <span>Phone: +5730011530</span>
         </div>
       </header>
 
       <main>
+        <Resume />
+        <br/>
+        <hr/>
         <section className="grid">
           <div className="card">
             <h3>[01] Engineering</h3>
