@@ -1,55 +1,37 @@
-# portfolio-2026
-Portfolio 2026
-Welcome to my technical playground. This repository is a living document of my journey as a software engineer, where I track my progress, projects, and the evolution of my coding skills.
+# Creative Intellect // 2026
+### Nicholas Henao Gallego — Portfolio Archive
 
-🚀 Current Focus
-Welcome to my digital workshop. This repository is a living document of my journey as a Software Engineer and Multi-disciplinary Creator, where I track the intersection of code, sound, and design.
+Operating at the intersection of structured systems and fluid expression. This project serves as a live document of my evolution as a self-taught AI Software Engineer and Creative Engineer.
 
-🚀 Technical Focus
-I am currently deep-diving into Frontend Development with a specific focus on:
+---
 
-React: Building modular, reusable UI components.
-React & TypeScript: Building modular, type-safe UI components and scalable web applications.
+## 🧠 The Architecture: Left Brain vs. Right Brain
 
-TypeScript: Implementing type safety to write more predictable and scalable code.
-Modern CSS: Creating responsive, aesthetic user interfaces.
+The interface is designed with a **Dual-Core Navigation** system, reflecting the two primary modes of my professional and creative output:
 
-Modern CSS: Creating responsive and aesthetic user interfaces.
-Linux Environments: Streamlining my development workflow through the terminal.
+* **Left Brain (Logic):** Showcasing AI software architecture, mathematical computation, and modular React/TypeScript engineering.
+* **Right Brain (Rhythm):** A repository for sonic textures, audio engineering, and creative visual narratives.
 
-📂 Project Structure
-/exercises: Small logic challenges and syntax practice.
-🎨 The Creative Process
-My approach to software is heavily influenced by my background in Music Production and Digital Design. I believe that clean code and a well-mixed track share the same DNA: structure, rhythm, and attention to detail.
+---
 
-/components: Isolated React + TS components.
-Sound Engineering: Utilizing Ableton Live and Focusrite hardware to explore professional-grade arrangements and audio interfaces.
+## 🛠 Tech Stack
 
-/mini-apps: Small-scale functional applications.
-Visual Design: Using Procreate and Pinterest for mood boarding and UI/UX inspiration.
+### Engineering (Logic)
+- **Frontend:** React 18, TypeScript, Tailwind CSS
+- **Systems:** Node.js, Python, Java
+- **Workflow:** Monk Mode Productivity, Custom Notion OS Integration
 
-🛠️ Tech Stack & Tools
-Languages: JavaScript (ES6+), TypeScript.
-Digital Systems: Building personal operating systems in Notion to manage complex creative workflows.
+### Creative (Rhythm)
+- **DAW:** Ableton Live, BandLab
+- **Hardware:** MIDI Keyboards, Audio Interfaces
+- **Visuals:** Dark Academia & Minimalist UI Design
 
-Library: React.
-📂 Project Structure
-/apps: Functional React + TS applications.
+---
 
-Environment: Linux / VS Code.
-/components: Reusable UI pieces and design experiments.
+## 🚀 Getting Started
 
-Design: Procreate & Pinterest (for UI inspiration and mood boarding).
-/audio-logic: Experiments with Web Audio API or music-related code.
+To run the portfolio locally:
 
-📈 My Goals for 2026
-[ ] Master React hooks and state management.
-
-📈 2026 Milestones
-[ ] Deploy three full-scale portfolio projects.
-
-[ ] Build and deploy three full-scale portfolio projects.
-[ ] Integrate audio processing logic into a React application.
-
-[ ] Contribute to open-source projects.
-[ ] Master advanced TypeScript patterns.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/trpac/creative-intellect-2026.git](https://github.com/your-username/creative-intellect-2026.git)
