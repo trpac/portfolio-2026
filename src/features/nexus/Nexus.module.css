@@ -1,0 +1,65 @@
+.nexusContainer {
+  width: 100%;
+  padding: 4rem var(--spacing-lg) 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 400; /* Lighter weight for a cleaner look */
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.03em;
+  font-family: var(--font-current);
+}
+
+.description {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin: 0.25rem 0 0 0;
+  font-family: var(--font-mono);
+}
+
+.infoGrid {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: var(--accent-color);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+}
+
+.value, .link {
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 1;
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .infoGrid {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}

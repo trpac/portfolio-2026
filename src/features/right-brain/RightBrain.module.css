@@ -1,0 +1,48 @@
+.container {
+  padding: var(--spacing-lg);
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-main); /* Explicitly set main text color */
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  /* Adds a subtle drop shadow to make the thin serif lines stay crisp */
+  text-shadow: var(--text-shadow);
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 8vw, 5rem); /* Responsive fluid sizing */
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.divider {
+  width: 60px;
+  border: 0;
+  border-top: 2px solid var(--accent-color);
+  margin: 2.5rem auto;
+  box-shadow: 0 0 10px var(--accent-color); /* Makes the divider "glow" */
+}
+
+.description {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--text-main);
+  opacity: 1; /* Ensure no transparency hides the text */
+}
+
+.mediaTag {
+  margin-top: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  font-weight: 700;
+}

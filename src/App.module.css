@@ -1,0 +1,57 @@
+.appShell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  /* Single, smooth matte finish */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem var(--spacing-lg) 1rem; /* More breathing room */
+}
+
+.modeIndicator {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--accent-color);
+  opacity: 0.8;
+}
+
+.toggleButton {
+  background: transparent;
+  border: none;
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.toggleButton:hover {
+  opacity: 1;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content for a "landing" feel */
+}
+
+.footer {
+  padding: 3rem var(--spacing-lg);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  color: var(--text-dim);
+  opacity: 0.4;
+}

@@ -1,0 +1,58 @@
+:root {
+  --transition-speed: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  --font-mono: 'Fira Code', monospace;
+  --font-serif: 'Playfair Display', serif;
+  
+  /* The New Dark Gray Foundation */
+  --base-gray: #121212;     /* Deep charcoal background */
+  --surface-gray: #1e1e1e;  /* Lighter gray for cards/sections */
+  --border-muted: #2a2a2a;  /* Subtle divider lines */
+}
+
+/* Left Brain: Logic / Engineering */
+[data-theme='left-brain'] {
+  --bg-primary: var(--base-gray);
+  --bg-secondary: var(--surface-gray);
+  --accent-color: #00ff41; 
+  --text-main: #e0e0e0;
+  --text-dim: #808080;
+  --border-color: var(--border-muted);
+  --font-current: var(--font-mono);
+}
+
+/* Right Brain: Music / Creative */
+[data-theme='right-brain'] {
+  --bg-primary: #161414;    /* Slightly warmer gray for "Dark Academia" */
+  --bg-secondary: #221f1f;
+  --accent-color: #d4af37; 
+  --text-main: #f5f5f5;
+  --text-dim: #9b8d8d;
+  --border-color: #332b2b;
+  --font-current: var(--font-serif);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-current);
+  color-scheme: dark;
+}
+/* In variables.css */
+[data-theme='left-brain'] {
+  --border-color: #2a2a2a; /* A subtle, dark border */
+  /* ... rest of your variables */
+}
+/* Right Brain: Music / Creative / Dark Academia */
+[data-theme='right-brain'] {
+  --bg-primary: #161414;    /* Deep charcoal with a hint of warmth */
+  --bg-secondary: #1f1c1c;  /* Slightly lighter for surface depth */
+  --accent-color: #ffcc33;  /* Brighter, "Golden Hour" accent */
+  --text-main: #fdfaf5;     /* High-contrast parchment white */
+  --text-dim: #a09595;      /* Visible muted gray-brown */
+  --border-color: #3d3434;
+  --font-current: var(--font-serif);
+  
+  /* Added: Text Shadow for Serif Readability */
+  --text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
